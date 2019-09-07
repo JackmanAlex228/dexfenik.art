@@ -1,15 +1,18 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <logo/>
+    <temp/>
   </div>
 </template>
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import temp from './components/temp.vue'
+import logo from './components/logo.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    logo,
+    temp
   }
 }
 </script>
