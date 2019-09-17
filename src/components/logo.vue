@@ -6,6 +6,6 @@
 
 <script>
 export default {
-    name: 'logo',
+    name: 'logo'
 }
 </script>
