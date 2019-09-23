@@ -1,10 +1,17 @@
 <template>
     <div class="gallery-body">
-        <h5> Check out more at these places </h5>
-        <a target="_blank" href="https://twitter.com/DexFenik"><img src="../assets/Old Icons/tw.jpg"></a>
-        <a target="_blank" href="https://www.instagram.com/dexfenik/"><img src="../assets/Old Icons/in.jpg"></a>
-        <a target="_blank" href="https://www.deviantart.com/dexfenik"><img src="../assets/Old Icons/da.jpg"></a>
-        <a target="_blank" href="https://www.furaffinity.net/user/dexfenik/"><img src="../assets/Old Icons/fa.png"></a>
+
+        <div class="images">
+            <img v-for="img in images" v-bind:src="img"/>
+        </div>
+
+        <div class="links">
+            <h5> Check out more at these places </h5>
+            <a target="_blank" href="https://twitter.com/DexFenik"><img src="../assets/Old Icons/tw.jpg"></a>
+            <a target="_blank" href="https://www.instagram.com/dexfenik/"><img src="../assets/Old Icons/in.jpg"></a>
+            <a target="_blank" href="https://www.deviantart.com/dexfenik"><img src="../assets/Old Icons/da.jpg"></a>
+            <a target="_blank" href="https://www.furaffinity.net/user/dexfenik/"><img src="../assets/Old Icons/fa.png"></a>
+        </div>
 
         <!-- TURN THIS BACK ON LATER -->
         <!-- <div class="gallery-nav-btns">
@@ -31,11 +38,17 @@ export default {
     //     commissions_gallery,
     //     sketches_gallery
     // },
-    // data() {
-    //     return {
-    //         component: 'artwork_gallery'
-    //     }
-    // }
+    data() {
+        return {
+            // component: 'artwork_gallery'
+            images:[
+                'https://d.facdn.net/art/dexfenik/1555297740/1555297740.dexfenik_dogbomb1.png',
+                'https://d.facdn.net/art/dexfenik/1555297527/1555297527.dexfenik_shoba_ref.png',
+                'https://d.facdn.net/art/dexfenik/1555297277/1555297277.dexfenik_woofy_ref.png',
+                'https://d.facdn.net/art/dexfenik/1551733489/1551733489.dexfenik_fox_shapes.png',
+                'https://d.facdn.net/art/dexfenik/1551733256/1551733256.dexfenik_willow_character_ref.png']
+        }
+    }
 }
 </script>
 
@@ -43,7 +56,7 @@ export default {
     .gallery-body {
         text-align: center;
     }
-    .gallery-body img {
+    .gallery-body .links img {
         width: 100px;
         margin: 10px;
         display: inline;
@@ -52,8 +65,20 @@ export default {
         -webkit-transition: 0.10s linear;
         -moz-transition: 0.10s linear;
     }
-    .gallery-body img:hover {
+    .gallery-body .links img:hover {
         filter: brightness(120%);
+    }
+    .gallery-body .images {
+        display: auto;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 75%;
+    }
+    .gallery-body .images img{
+        width: 300px;
+        margin: 10px;
+        display: inline;
+        border-radius: 10px;
     }
     .gallery-nav-btns {
         text-align: center;
