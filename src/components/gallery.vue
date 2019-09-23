@@ -2,7 +2,7 @@
     <div class="gallery-body">
 
         <div class="images">
-            <img v-for="img in images" v-bind:src="img"/>
+            <img v-for="img in images" v-bind:src="img" :key="img"/>
         </div>
 
         <div class="links">
