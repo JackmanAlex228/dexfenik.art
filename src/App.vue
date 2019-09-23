@@ -3,7 +3,7 @@
     <logo/>
     <div class="main-nav-btns">
       <b-button v-on:click="component='gallery'">Portfolio</b-button>
-      <b-button v-on:click="component='characters'">Characters</b-button>
+      <!-- <b-button v-on:click="component='characters'">Characters</b-button> -->
       <b-button v-on:click="component='about'">About</b-button>
       <b-button v-on:click="component='commissions'">Commissions</b-button>
       <b-button v-on:click="component='contact'">Contact</b-button>
@@ -15,7 +15,7 @@
 <script>
 import logo from './components/logo.vue'
 import gallery from './components/gallery.vue'
-import characters from './components/characters.vue'
+// import characters from './components/characters.vue'
 import about from './components/about.vue'
 import commissions from './components/commissions.vue'
 import contact from './components/contact.vue'
@@ -25,7 +25,7 @@ export default {
   components: {
     logo,
     gallery,
-    characters,
+    // characters,
     about,
     commissions,
     contact
