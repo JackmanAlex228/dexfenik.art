@@ -2,7 +2,7 @@
   <div id="app">
     <logo/>
     <div class="main-nav-btns">
-      <b-button v-on:click="component='gallery'">Gallery</b-button>
+      <b-button v-on:click="component='gallery'">Portfolio</b-button>
       <b-button v-on:click="component='characters'">Characters</b-button>
       <b-button v-on:click="component='about'">About</b-button>
       <b-button v-on:click="component='commissions'">Commissions</b-button>
@@ -43,6 +43,11 @@ export default {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+  #app {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #5D5D5D;
   }
   .main-nav-btns {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
