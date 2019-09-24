@@ -2,6 +2,7 @@
   <div id="app">
     <logo/>
     <div class="main-nav-btns">
+      <p id="test"></p>
       <b-button v-on:click="component='gallery'">Portfolio</b-button>
       <!-- <b-button v-on:click="component='characters'">Characters</b-button> -->
       <b-button v-on:click="component='about'">About</b-button>
@@ -19,6 +20,7 @@ import gallery from './components/gallery.vue'
 import about from './components/about.vue'
 import commissions from './components/commissions.vue'
 import contact from './components/contact.vue'
+import data from './text/portfolio.json'
 
 export default {
   name: 'app',
@@ -32,6 +34,7 @@ export default {
   },
   data() {
     return {
+      data,
       component: 'gallery'
     }
   }
