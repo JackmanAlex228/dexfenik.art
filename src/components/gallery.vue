@@ -101,9 +101,9 @@ export default {
         width: 75px;
         margin-left: 5px;
         margin-right: 5px;
-        margin-bottom: 10px;
+        margin-bottom: 25px;
         display: inline;
-        border-radius: 20px;
+        border-radius: 10px;
         transition: 0.10s linear;
         -webkit-transition: 0.10s linear;
         -moz-transition: 0.10s linear;

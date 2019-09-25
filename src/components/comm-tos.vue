@@ -1,6 +1,7 @@
 <template>
     <div class="body">
-        <p>Terms of Service</p>
+        <h3>What I will not draw</h3>
+        <p></p>
     </div>
 </template>
 
@@ -12,6 +13,8 @@ export default {
 
 <style scoped>
     .body {
+        margin-top: 25px;
+        margin-bottom: 25px;
         text-align: center;
     }
 </style>

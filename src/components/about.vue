@@ -58,7 +58,7 @@ export default {
 
 <style scoped>
     .body {
-        margin-top: 10px;
+        margin-top: 25px;
     }
     .body p {
         width: 70%;
@@ -68,12 +68,12 @@ export default {
     .body .inspirations-btns {
         width: 70%;
         display: inline-block;
+        margin-bottom: 25px;
     }
     .inspirations-btns .btn {
         border: none;
         background: none;
         color: #5D5D5D;
-        margin-bottom: 10px;
     }
     .inspirations-btns .btn:hover {
         background: none;
