@@ -44,8 +44,6 @@ export default {
 <style>
   img {
     display: inline-block;
-    /* margin-left: auto;
-    margin-right: auto; */
   }
   #app {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

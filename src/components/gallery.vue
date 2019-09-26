@@ -1,9 +1,15 @@
 <template>
     <div class="gallery-body">
 
-        <div class="images">
+        <!-- <div class="images">
             <b-img fluid alt="Fluid image" v-for="img in images" v-bind:src="img" :key="img"></b-img>
-        </div>
+        </div> -->
+
+        <b-container class="images">
+            <b-row>
+                <b-col sm md="auto"><img v-for="img in images" v-bind:src="img" :key="img"/></b-col>
+            </b-row>
+        </b-container>
 
         <div class="links">
             <p> Check out more at these places </p>
@@ -100,11 +106,12 @@ export default {
         filter: brightness(120%);
     }
     .gallery-body .images {
-        margin: 25px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100% !important;
     }
     .gallery-body .images img {
         width: 300px;
-        display: inline;
         border-radius: 10px;
         margin: 10px;
     }
