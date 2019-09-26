@@ -13,8 +13,6 @@
         <h3>What I can draw</h3>
         <ul>
             <li>Maws, paws, micro, or macro are okay as long as it's not sexually implicit.</li>
-            <li>Inmodest clothing for cartoony characters such as speedos and bikinis.</li>
-            <li>Subtle SFW nudity, with or without underwear.</li>
             <li>Romantic situations for couples I know personally.</li>
             <li>Fanart or art of non-copyrighted characters.</li>
         </ul>
