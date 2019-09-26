@@ -1,40 +1,43 @@
 <template>
     <div class="body">
-        <h3>Flat Illustraions</h3>
-        <p>$25 | Add Character +$15 | Add Background +$20</p>
-        <div class="examples">
-            <img v-for="img in flatIllustrations" v-bind:src="img" :key="img"/>
-        </div>
-        
-        <h3>Shaded Illustrations</h3>
-        <p>$30 | Add Character +$20 | Add Background +$25</p>
-        <div class="examples">
-            <img v-for="img in shadedIllustrations" v-bind:src="img" :key="img"/>
-        </div>
-        
-        <h3>Flat Icons</h3>
-        <p>$15 | Add Character +$10 | Add Background +$10</p>
-        <div class="examples">
-            <img v-for="img in flatIcons" v-bind:src="img" :key="img"/>
-        </div>
-        
-        <h3>Shaded Icons</h3>
-        <p>$20 | Add Character +$15 | Add Background +$15</p>
-        
-        <h3>Badges</h3>
-        <p>Add Nameplate To Artwork +$5 | Con Pickup +$5 | Shipping +$7</p>
-        <div class="examples">
-            <img v-for="img in badges" v-bind:src="img" :key="img"/>
-        </div>
-        
-        <h3>Medium Character References</h3>
-        <p>Colored $40 | Linart Only $30</p>
-        
-        <h3>Large Character References</h3>
-        <p>Colored $60 | Linart Only $45</p>
-        <div class="examples">
-            <img v-for="img in largeRefs" v-bind:src="img" :key="img"/>
-        </div>
+        <b-container class="prices">
+
+            <h3>Flat Illustraions</h3>
+            <p>$25 | Add Character +$15 | Add Background +$20</p>
+            <div class="examples">
+                <b-img fluid alt="Fluid image" v-for="img in flatIllustrations" v-bind:src="img" :key="img"/>
+            </div>
+            
+            <h3>Shaded Illustrations</h3>
+            <p>$30 | Add Character +$20 | Add Background +$25</p>
+            <div class="examples">
+                <b-img fluid alt="Fluid image" v-for="img in shadedIllustrations" v-bind:src="img" :key="img"/>
+            </div>
+            
+            <h3>Flat Icons</h3>
+            <p>$15 | Add Character +$10 | Add Background +$10</p>
+            <div class="examples">
+                <b-img fluid alt="Fluid image" v-for="img in flatIcons" v-bind:src="img" :key="img"/>
+            </div>
+            
+            <h3>Shaded Icons</h3>
+            <p>$20 | Add Character +$15 | Add Background +$15</p>
+            
+            <h3>Badges</h3>
+            <p>Add Nameplate To Artwork +$5 | Con Pickup +$5 | Shipping +$7</p>
+            <div class="examples">
+                <b-img fluid alt="Fluid image" v-for="img in badges" v-bind:src="img" :key="img"/>
+            </div>
+            
+            <h3>Medium Character References</h3>
+            <p>Colored $40 | Linart Only $30</p>
+            
+            <h3>Large Character References</h3>
+            <p>Colored $60 | Linart Only $45</p>
+            <div class="examples">
+                <b-img fluid alt="Fluid image" v-for="img in largeRefs" v-bind:src="img" :key="img"/>
+            </div>
+        </b-container>
     </div>
 </template>
 
@@ -89,18 +92,12 @@ export default {
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    .body p {
-        width: 70%;
-        display: inline-block;
-    }
-    .body .examples {
-        display: auto;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 75%;
+    .body h3, p {
+        text-align: center !important;
+
     }
     .body .examples img{
-        height: 300px;
+        width: 300px;
         margin: 10px;
         display: inline;
         border-radius: 10px;

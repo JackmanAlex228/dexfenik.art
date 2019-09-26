@@ -11,8 +11,7 @@
         <p>Telegram, Twitter, Instagram, FurAffinity, and DeviantArt DMs. I'm @DexFenik on all of these.</p>
 
         <h3>There are no stupid questions</h3>
-        <p>Please, PLEASE ask me anything on <a href="curiouscat.me/DexFenik">CuriousCat</a>. It's really fun, it makes me 
-            feel special, and I would love to populate my Q&amp;A for others to read. </p>
+        <p>Please feel free ask me anything on <a href="curiouscat.me/DexFenik">CuriousCat</a>.</p>
 
         <h3>What NOT to do when contacting me</h3>
         <ul>
@@ -30,27 +29,23 @@
 
 <script>
 export default {
-    name: 'contact',
+    name: 'contact'
 }
 </script>
 
 <style scoped>
     .body {
-        width: 70%;
         display: inline-block;
         margin-top: 25px;
         margin-bottom: 25px;
-        text-align: center;
-    }
-    .body p {
         text-align: center;
     }
     .body a {
         text-decoration: underline;
         color: #5D5D5D;
     }
-    .body ul {
-        text-align: left;
+    .body h3, p, ul {
+        text-align: left !important;
     }
     .body a:hover {
         color: #FF6600;

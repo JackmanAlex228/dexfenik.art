@@ -66,16 +66,13 @@ export default {
     .commissions-body .status p {
         width: 70%;
         display: inline-block;
-        text-align: center;
+        text-align: center !important;
     }
     .commissions-body .status h3 {
+        text-align: center !important;
         color: #5D5D5D !important;
         display: inline-block;
         margin: 5px;
-    }
-    .commissions-body .status h5 {
-        color: #5D5D5D !important;
-        display: inline-block;
     }
     .commissions-body .status h3 .closed {
         color: red !important;

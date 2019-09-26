@@ -52,6 +52,11 @@ export default {
   #app h3 {
     color: #FF6600;
   }
+  #app p, h3, ol, ul {
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+  }
   .main-nav-btns .btn {
     border: none;
     background: none;

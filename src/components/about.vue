@@ -60,11 +60,6 @@ export default {
     .body {
         margin-top: 25px;
     }
-    .body p {
-        width: 70%;
-        display: inline-block;
-        text-align: left;
-    }
     .body .inspirations-btns {
         width: 70%;
         display: inline-block;

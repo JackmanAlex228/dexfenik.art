@@ -2,7 +2,7 @@
     <div class="gallery-body">
 
         <div class="images">
-            <img v-for="img in images" v-bind:src="img" :key="img"/>
+            <b-img fluid alt="Fluid image" v-for="img in images" v-bind:src="img" :key="img"></b-img>
         </div>
 
         <div class="links">
@@ -12,32 +12,13 @@
             <a target="_blank" href="https://www.deviantart.com/dexfenik"><img src="../assets/Old Icons/da.jpg"></a>
             <a target="_blank" href="https://www.furaffinity.net/user/dexfenik/"><img src="../assets/Old Icons/fa.png"></a>
         </div>
-
-        <!-- TURN THIS BACK ON LATER -->
-        <!-- <div class="gallery-nav-btns">
-            <b-button size="sm" v-on:click="component='artwork_gallery'">Artwork</b-button>
-            <b-button size="sm" v-on:click="component='gifts_trades_gallery'">Gifts and Trades</b-button>
-            <b-button size="sm" v-on:click="component='commissions_gallery'">Commissions</b-button>
-            <b-button size="sm" v-on:click="component='sketches_gallery'">Sketches</b-button>
-        </div>
-        <component v-bind:is="component"/> -->
     </div>
 </template>
 
 <script>
-// import artwork_gallery from './gallery-artwork.vue'
-// import gifts_trades_gallery from './gallery-gifts-trades.vue'
-// import commissions_gallery from './gallery-comms.vue'
-// import sketches_gallery from './gallery-sketches.vue'
 
 export default {
     name: 'gallery',
-    // components: {
-    //     artwork_gallery,
-    //     gifts_trades_gallery,
-    //     commissions_gallery,
-    //     sketches_gallery
-    // },
     data() {
         return {
             // component: 'artwork_gallery'
@@ -96,12 +77,19 @@ export default {
 <style scoped>
     .gallery-body {
         text-align: center;
+        margin-bottom: 25px;
+    }
+    .gallery-body .links {
+        width: 100%;
+    }
+    .gallery-body .links p {
+        text-align: center !important;
+        width: 100% !important;
     }
     .gallery-body .links img {
         width: 75px;
         margin-left: 5px;
         margin-right: 5px;
-        margin-bottom: 25px;
         display: inline;
         border-radius: 10px;
         transition: 0.10s linear;
@@ -112,18 +100,13 @@ export default {
         filter: brightness(120%);
     }
     .gallery-body .images {
-        margin-top: 25px;
-        margin-bottom: 25px;
-        display: auto;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 70%;
+        margin: 25px;
     }
-    .gallery-body .images img{
-        height: 300px;
-        margin: 10px;
+    .gallery-body .images img {
+        width: 300px;
         display: inline;
         border-radius: 10px;
+        margin: 10px;
     }
     .gallery-nav-btns {
         text-align: center;
