@@ -17,7 +17,7 @@
             costplays, friendships, and other adventures. To this day, I draw character-focused artwork, open for 
             commissions on occasion, and travel to cons so I can dress as an anxious fox on the side. </p>
 
-        <h3>How I Learned</h3>
+        <h3>How I Learn</h3>
         <p>I practiced every day, or at least as much as I can, starting from a sketch book. I also learned 
             from my inspirations, watching them progress, viewing their tutorials, viewing the art they love, 
             and so on. And most importantly, I enjoyed it, and I enjoyed others enjoying it.</p>

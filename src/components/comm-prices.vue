@@ -30,10 +30,10 @@
             </div>
             
             <h3>Medium Character References</h3>
-            <p>Colored $40 | Linart Only $30</p>
+            <p>Colored $40 | Linart-Only $30</p>
             
             <h3>Large Character References</h3>
-            <p>Colored $60 | Linart Only $45</p>
+            <p>Colored $60 | Linart-Only $45</p>
             <div class="examples">
                 <b-img fluid alt="Fluid image" v-for="img in largeRefs" v-bind:src="img" :key="img"/>
             </div>
