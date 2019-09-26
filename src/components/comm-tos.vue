@@ -16,15 +16,6 @@
             <li>Romantic situations for couples I know personally.</li>
             <li>Fanart or art of non-copyrighted characters.</li>
         </ul>
-        <h3>Personal Style Preferences</h3>
-        <ul>
-            <li>When drawing females without clothes I prefer not to draw human breasts. 
-                To make the character appear female I instead draw more chest fluff, eyelashes, or wider hips.</li>
-            <li>When drawing males without clothes I tend to draw fur tuft at the crotch, but sometimes I don't.</li>
-            <li>When drawing anthropomorphic animals standing upright, I prefer to draw them as toony ferals.</li>
-            <li>When drawing anthropomotphic digitigrade animals standing upright, I prefer to draw their legs in 
-                a toony half-digi half-planty style. Although occasionally I'll draw full digi.</li>
-        </ul>
     </div>
 </template>
 
