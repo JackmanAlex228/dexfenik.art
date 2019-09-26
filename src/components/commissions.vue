@@ -2,6 +2,7 @@
     <div class="commissions-body">
         <div class="status">
             <h3>Commissions are currently <h3 class="closed"><b>CLOSED</b></h3></h3>
+            <br>
             <p>I might do trades if you ask, I do not do requests,
                 and if you would like to know when I open, watch out for 
                 commission annoucements on my Twitter: @DexFenik.</p>
@@ -56,7 +57,7 @@ export default {
         color: #FF6600 !important;
     }
     .commissions-body .status {
-        width: 50%;
+        width: 70%;
         display:inline-block;
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

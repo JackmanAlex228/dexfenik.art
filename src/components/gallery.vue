@@ -117,7 +117,7 @@ export default {
         display: auto;
         margin-left: auto;
         margin-right: auto;
-        max-width: 75%;
+        max-width: 70%;
     }
     .gallery-body .images img{
         height: 300px;
