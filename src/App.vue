@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <logo/>
-    <b-button-group class="main-nav-btns">
+    <b-container class="main-nav-btns">
       <b-row>
         <b-col sm><b-button v-on:click="component='gallery'">Portfolio</b-button></b-col>
         <!-- <b-button v-on:click="component='characters'">Characters</b-button> -->
@@ -9,7 +9,7 @@
         <b-col sm><b-button v-on:click="component='commissions'">Commissions</b-button></b-col>
         <b-col sm><b-button v-on:click="component='contact'">Contact</b-button></b-col>
       </b-row>
-    </b-button-group>
+    </b-container>
     <component v-bind:is="component"/>
   </div>
 </template>
@@ -42,9 +42,9 @@ export default {
 
 <style>
   img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-block;
+    /* margin-left: auto;
+    margin-right: auto; */
   }
   #app {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -59,12 +59,15 @@ export default {
     display: inline-block;
     text-align: center;
   }
+  .main-nav-btns {
+    /* width: 40% !important; */
+  }
   .main-nav-btns .btn {
     border: none;
     background: none;
     color: #5D5D5D;
-    margin-left: 5px;
-    margin-right: 5px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
   }
   .main-nav-btns .btn:hover {
     background: none;
