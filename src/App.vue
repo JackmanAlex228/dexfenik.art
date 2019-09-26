@@ -1,13 +1,15 @@
 <template>
   <div id="app">
     <logo/>
-    <div class="main-nav-btns">
-      <b-button v-on:click="component='gallery'">Portfolio</b-button>
-      <!-- <b-button v-on:click="component='characters'">Characters</b-button> -->
-      <b-button v-on:click="component='about'">About</b-button>
-      <b-button v-on:click="component='commissions'">Commissions</b-button>
-      <b-button v-on:click="component='contact'">Contact</b-button>
-    </div>
+    <b-button-group class="main-nav-btns">
+      <b-row>
+        <b-col sm><b-button v-on:click="component='gallery'">Portfolio</b-button></b-col>
+        <!-- <b-button v-on:click="component='characters'">Characters</b-button> -->
+        <b-col sm><b-button v-on:click="component='about'">About</b-button></b-col>
+        <b-col sm><b-button v-on:click="component='commissions'">Commissions</b-button></b-col>
+        <b-col sm><b-button v-on:click="component='contact'">Contact</b-button></b-col>
+      </b-row>
+    </b-button-group>
     <component v-bind:is="component"/>
   </div>
 </template>
