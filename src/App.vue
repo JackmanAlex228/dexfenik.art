@@ -2,12 +2,12 @@
   <div id="app">
     <logo/>
     <b-container class="main-nav-btns">
-      <b-row>
-        <b-col sm><b-button v-on:click="component='gallery'">Portfolio</b-button></b-col>
+      <b-row class="justify-content-md-center">
+        <b-col sm md="auto"><b-button v-on:click="component='gallery'">Portfolio</b-button></b-col>
         <!-- <b-button v-on:click="component='characters'">Characters</b-button> -->
-        <b-col sm><b-button v-on:click="component='about'">About</b-button></b-col>
-        <b-col sm><b-button v-on:click="component='commissions'">Commissions</b-button></b-col>
-        <b-col sm><b-button v-on:click="component='contact'">Contact</b-button></b-col>
+        <b-col sm md="auto"><b-button v-on:click="component='about'">About</b-button></b-col>
+        <b-col sm md="auto"><b-button v-on:click="component='commissions'">Commissions</b-button></b-col>
+        <b-col sm md="auto"><b-button v-on:click="component='contact'">Contact</b-button></b-col>
       </b-row>
     </b-container>
     <component v-bind:is="component"/>
@@ -58,9 +58,6 @@ export default {
     width: 70%;
     display: inline-block;
     text-align: center;
-  }
-  .main-nav-btns {
-    /* width: 40% !important; */
   }
   .main-nav-btns .btn {
     border: none;
