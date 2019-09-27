@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <logo/>
-    <h3>The Art Of DexFenik</h3>
+    <h3 class="title">The Art Of DexFenik</h3>
     <b-container class="main-nav-btns">
       <b-row class="justify-content-md-center">
         <b-col sm md="auto"><b-button v-on:click="component='gallery'">Portfolio</b-button></b-col>
@@ -42,6 +42,9 @@ export default {
 </script>
 
 <style>
+  .title {
+    width: 100% !important;
+  }
   img {
     display: inline-block;
   }

@@ -2,7 +2,7 @@
     <div class="body">
         <b-container class="prices">
 
-            <h3>Flat Illustraions</h3>
+            <h3>Flat Illustrations</h3>
             <p>$25 | Add Character +$15 | Add Background +$20</p>
             <b-container class="examples">
                 <b-row>
