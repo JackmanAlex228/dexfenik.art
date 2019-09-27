@@ -11,7 +11,7 @@
         <p>Telegram, Twitter, Instagram, FurAffinity, and DeviantArt DMs. I'm @DexFenik on all of these.</p>
 
         <h3>There are no stupid questions</h3>
-        <p>Please feel free ask me anything on <a href="curiouscat.me/DexFenik">CuriousCat</a>.</p>
+        <p>Please feel free ask me anything on <a href="https://curiouscat.me/DexFenik">CuriousCat</a>.</p>
 
         <h3>What NOT to do when contacting me</h3>
         <ul>

@@ -65,8 +65,6 @@ export default {
     border: none;
     background: none;
     color: #5D5D5D;
-    /* margin-left: 5px;
-    margin-right: 5px; */
   }
   .main-nav-btns .btn:hover {
     background: none;

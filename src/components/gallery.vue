@@ -1,10 +1,6 @@
 <template>
     <div class="gallery-body">
 
-        <!-- <div class="images">
-            <b-img fluid alt="Fluid image" v-for="img in images" v-bind:src="img" :key="img"></b-img>
-        </div> -->
-
         <b-container class="images">
             <b-row>
                 <b-col sm md="auto"><img v-for="img in images" v-bind:src="img" :key="img"/></b-col>
@@ -12,7 +8,6 @@
         </b-container>
 
         <div class="links">
-            <p> Check out more at these places </p>
             <a target="_blank" href="https://twitter.com/DexFenik"><img src="../assets/Old Icons/tw.jpg"></a>
             <a target="_blank" href="https://www.instagram.com/dexfenik/"><img src="../assets/Old Icons/in.jpg"></a>
             <a target="_blank" href="https://www.deviantart.com/dexfenik"><img src="../assets/Old Icons/da.jpg"></a>

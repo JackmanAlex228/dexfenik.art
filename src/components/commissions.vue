@@ -1,12 +1,26 @@
 <template>
     <div class="commissions-body">
-        <div class="status">
-            <h3>Commissions are currently <h3 class="closed"><b>CLOSED</b></h3></h3>
-            <br>
-            <p>I might do trades if you ask, I do not do requests,
-                and if you would like to know when I open, watch out for 
-                commission annoucements on my Twitter: @DexFenik.</p>
-        </div>
+
+        <b-container class="status">
+            <b-row class="justify-content-lg-center">
+                <b-col lg="8">
+                    <!-- Danger Success Warning Info -->
+                    <b-card
+                        border-variant="danger"
+                        header-bg-variant="danger" 
+                        header-text-variant="white" 
+                        header="Commissions are CLOSED" 
+                        class="text-center">
+                        <b-card-text>
+                            Trades: Ask | Requests: No<br>
+                            Check Twitter for announcements
+                        </b-card-text>
+                    </b-card>
+                </b-col>
+            </b-row>
+        </b-container>
+
+
         <div class="commissions-nav-btns">
             <b-button size="sm" v-on:click="component='comm_prices'">Prices</b-button>
             <b-button size="sm" v-on:click="component='comm_tos'">Terms of Service</b-button>
@@ -57,37 +71,8 @@ export default {
         color: #FF6600 !important;
     }
     .commissions-body .status {
-        width: 70%;
-        display:inline-block;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        margin: 25px;
-    }
-    .commissions-body .status p {
-        width: 70%;
-        display: inline-block;
-        text-align: center !important;
-    }
-    .commissions-body .status h3 {
-        text-align: center !important;
-        color: #5D5D5D !important;
-        display: inline-block;
-        margin: 5px;
-    }
-    .commissions-body .status h3 .closed {
-        color: red !important;
-    }
-    .commissions-body .status h3 .open {
-        color: green !important;
-    }
-    .commissions-body .status h3 .inprogress {
-        color: green !important;
-        animation: blinker 1.5s linear infinite;
-    }
-    .commissions-body .status h3 .onhold {
-        color: gold !important;
-    }
-    @keyframes blinker {
-        50% { opacity: 0; } 
+        width: 100% !important;
+        margin-top: 25px;
+        margin-bottom: 25px;
     }
 </style>
