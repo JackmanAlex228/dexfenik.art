@@ -88,7 +88,6 @@ export default {
         width: 100% !important;
     }
     .gallery-body .links img {
-        width: 75px;
         margin-left: 5px;
         margin-right: 5px;
         display: inline;
