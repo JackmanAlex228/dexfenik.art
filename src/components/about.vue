@@ -9,7 +9,7 @@
                     I started doing graphic design in high school in 2010, focusing on Adobe Photoshop and Illustrator.
                     At the time I focused mainly on photo editing and designs, however, it won't be until my college
                     freshman year in 2014 that I began to draw freehand, mainly animals and nature.</p>
-                <p>After less than a year of practice, as well as graduating from the sketch pad to digital, 
+                <p>After less than a year of practice, moving from sketchpad to digital, 
                     I began taking commissions in Fall 2014 from a local furry group on Facebook. While I've produced 
                     more art over the years, I've gained many friends in the furry community as well, traveling to 
                     many cons and experiencing countless memories.</p>
@@ -17,25 +17,25 @@
                     shows such as Lion King and Dragon Ball. After discovering the art in 2013, persuing the 
                     community in 2014, and getting a fursuit in 2017, I've been an living in this community through art, 
                     costplays, friendships, and other adventures. To this day, I draw character-focused artwork, open for 
-                    commissions on occasion, and travel to cons so I can dress as an anxious fox on the side. </p>
+                    commissions on occasion, and travel to cons so I can goof around dressed as an anxious fox. </p>
             </b-col>
         </b-row>
 
         <b-row class="justify-content-center">
             <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                 <h3>How I Learn</h3>
-                <p>I practiced every day, or at least as much as I can, starting from a sketch book. I also learned 
+                <p>Practice every day, or at least as much as I can, starting from a sketch book. I also learned 
                     from my inspirations, watching them progress, viewing their tutorials, viewing the art they love, 
-                    and so on. And most importantly, I enjoyed it, and I enjoyed others enjoying it.</p>
+                    and aspiring to be like them. And most importantly, I enjoyed it.</p>
             </b-col>
         </b-row>
 
         <b-row class="justify-content-center">
             <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                 <h3>What I Used</h3>
-                <p>In my graphic design days, I used an Intuos Pro 4, which was given to me for Christmas 
+                <p>In my graphic design days, I used a Wacom Intuos Pro 4, which was given to me for Christmas 
                     in 2010. My brother and I also shared a copy of the Adobe CS5 Production Premium. </p>
-                <p>When I started drawing in 2014, I simply bought a sketch book and drew what I felt like every day. 
+                <p>When I started drawing in 2014, I simply bought a sketch book and drew what I felt like drawing every day. 
                     Eventually I went back to Photoshop and my Intuos 4 once I got back to my computer one summer. 
                     Later in the fall, I used Paint Tool Sai (given by a friend) for the lineart and color 
                     and Photoshop for the effects and touch-ups.</p>
@@ -100,7 +100,7 @@ export default {
         border: none !important;
         color: #FF6600 !important;
     }
-    .inspirations-btns .Thanshuhai:hover    { color: cyan; }
+    .inspirations-btns .Thanshuhai:hover    { color: rgb(46, 219, 219); }
     .inspirations-btns .Denucard:hover      { color: rgb(243, 187, 46); }
     .inspirations-btns .TaniDaReal:hover    { color: rgb(80, 148, 148); }
     .inspirations-btns .Kenket:hover        { color: rgb(142, 197, 48); }
@@ -109,6 +109,6 @@ export default {
     .inspirations-btns .Tsebresos:hover     { color: plum; }
     .inspirations-btns .Kour:hover          { color: rgb(255, 0, 140); }
     .inspirations-btns .JibKodi:hover       { color: rgb(13, 150, 43); }
-    .inspirations-btns .Fuel:hover          { color: orange; }
+    .inspirations-btns .Fuel:hover          { color: rgb(4, 212, 132); }
     .inspirations-btns .NowAndLater:hover   { color: red; }
 </style>

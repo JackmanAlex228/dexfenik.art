@@ -116,12 +116,8 @@ export default {
         background: none;
         color: #5D5D5D;
     }
-    .gallery-nav-btns .btn:hover {
+    .gallery-nav-btns .btn:hover, .btn:active {
         background: none;
         color: #FF6600;
-    }
-    .gallery-nav-btns .btn:active {
-        background: none !important;
-        color: #FF6600 !important;
     }
 </style>

@@ -1,12 +1,12 @@
 <template>
     <b-container class="queue-body">
-        <!-- <b-row class="justify-content-center">
-            <b-col sx="12" sm="12" md="10" lg="8" xl="8"> -->
-                <b-table class="table" :items="items" :fields="fields" caption-top borderless>
+        <b-row class="justify-content-center">
+            <b-col sx="12" sm="12" md="12" lg="12" xl="12">
+                <b-table :items="items" :fields="fields" caption-top borderless>
                     <template v-slot:table-caption>PayPal Address: dexfenikfox@gmail.com</template>
                 </b-table>
-            <!-- </b-col>
-        </b-row> -->
+            </b-col>
+        </b-row>
     </b-container>
 </template>
 
@@ -37,7 +37,7 @@ export default {
     .queue-body .table {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: #5D5D5D;
-        /* display: inline-block; */
+        display: inline-block;
         width: 100% !important;
     }
 </style>
