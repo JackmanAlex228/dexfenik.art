@@ -12,10 +12,10 @@
                     I began taking commissions in Fall 2014 from a local furry group on Facebook. While I've produced 
                     more art over the years, I've gained many friends in the furry community as well, traveling to 
                     many cons and experiencing countless memories.</p>
-                <p>For my whole life, I've always had an affinity for anthropomorphic animals, from films and 
-                    shows such as Lion King and Dragon Ball. After discovering the art in 2013, persuing the 
-                    community in 2014, and getting a fursuit in 2017, I've been living in this community through art, 
-                    costplays, friendships, and other adventures. To this day, I draw character-focused artwork, open for 
+                <p>Throughout my life, I've always had an affinity for anthropomorphic animals, from films and 
+                    shows such as The Lion King and Dragon Ball. After discovering the art in 2013, pursuing the 
+                    community in 2014, and getting a fursuit in 2017, I've been participating in this community through art, 
+                    cosplays, friendships, and other adventures. To this day, I draw character-focused artwork, open for 
                     commissions on occasion, and travel to cons so I can goof around dressed as an anxious fox. </p>
             </b-col>
         </b-row>
@@ -23,9 +23,9 @@
         <b-row class="justify-content-center">
             <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                 <h3>How I Learn</h3>
-                <p>Practice every day, or at least as much as I can, starting from a sketch book. I also learn 
-                    from my inspirations, watching them progress, viewing their tutorials, viewing the art they love, 
-                    and aspiring to be like them. And most importantly, I enjoy it.</p>
+                <p>Practice every day, or at least as much as I can, starting with a sketchbook. I also learn 
+                    from my inspirations; watching them progress, viewing their tutorials, viewing the art they love, 
+                    and aspiring to draw like them. And most importantly, I enjoy it.</p>
             </b-col>
         </b-row>
 

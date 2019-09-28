@@ -1,5 +1,5 @@
 <template>
-    <div class="body">
+    <div class="prices-body">
         <b-container class="prices">
 
             <br><h3>Flat Illustrations</h3><br>
@@ -98,18 +98,17 @@ export default {
 </script>
 
 <style scoped>
-    .body {
-        margin-top: 25px;
+    .prices-body {
         margin-bottom: 25px;
     }
-    .body h3, p {
+    .prices-body h3, p {
         text-align: center !important;
 
     }
-    .body .examples {
+    .prices-body .examples {
         width: 100% !important;
     }
-    .body .examples img {
+    .prices-body .examples img {
         width: 300px;
         margin: 10px;
         display: inline-block;
