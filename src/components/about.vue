@@ -6,9 +6,8 @@
                 <h3>Hello</h3>
                 <p>My name is DexFenik (Dex-Fee-Nick), but you can just call me Dex.</p>
                 <p>I am a digital artist by hobby and a software engineer by school and profession.
-                    I started doing graphic design in high school in 2010, focusing on Adobe Photoshop and Illustrator.
-                    At the time I focused mainly on photo editing and designs, however, it won't be until my college
-                    freshman year in 2014 that I began to draw freehand, mainly animals and nature.</p>
+                    I started doing graphic design in high school in 2010, focusing on Adobe Photoshop and Illustrator. 
+                    In my freshman year of college in 2014, I began to draw freehand, mainly animals and nature.</p>
                 <p>After less than a year of practice, moving from sketchpad to digital, 
                     I began taking commissions in Fall 2014 from a local furry group on Facebook. While I've produced 
                     more art over the years, I've gained many friends in the furry community as well, traveling to 
@@ -24,7 +23,7 @@
         <b-row class="justify-content-center">
             <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                 <h3>How I Learn</h3>
-                <p>Practice every day, or at least as much as I can, starting from a sketch book. I also learned 
+                <p>Practice every day, or at least as much as I can, starting from a sketch book. I also learn 
                     from my inspirations, watching them progress, viewing their tutorials, viewing the art they love, 
                     and aspiring to be like them. And most importantly, I enjoyed it.</p>
             </b-col>
