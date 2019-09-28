@@ -2,49 +2,49 @@
     <div class="body">
         <b-container class="prices">
 
-            <h3>Flat Illustrations</h3>
+            <br><h3>Flat Illustrations</h3><br>
             <p>$25 | Add Character +$15 | Add Background +$20</p>
             <b-container class="examples">
-                <b-row class="justify-content-lg-center">
-                    <b-col lg="8"><img v-for="img in flatIllustrations" v-bind:src="img" :key="img"/></b-col>
+                <b-row class="justify-content-center">
+                    <b-col xl="8"><img v-for="img in flatIllustrations" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
-            <h3>Shaded Illustrations</h3>
+            <br><h3>Shaded Illustrations</h3><br>
             <p>$30 | Add Character +$20 | Add Background +$25</p>
             <b-container class="examples">
-                <b-row class="justify-content-lg-center">
-                    <b-col lg="8"><img v-for="img in shadedIllustrations" v-bind:src="img" :key="img"/></b-col>
+                <b-row class="justify-content-center">
+                    <b-col xl="8"><img v-for="img in shadedIllustrations" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
-            <h3>Flat Icons</h3>
+            <br><h3>Flat Icons</h3><br>
             <p>$15 | Add Character +$10 | Add Background +$10</p>
             <b-container class="examples">
-                <b-row class="justify-content-lg-center">
-                    <b-col lg="8"><img v-for="img in flatIcons" v-bind:src="img" :key="img"/></b-col>
+                <b-row class="justify-content-center">
+                    <b-col xl="8"><img v-for="img in flatIcons" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
-            <h3>Shaded Icons</h3>
+            <br><h3>Shaded Icons</h3><br>
             <p>$20 | Add Character +$15 | Add Background +$15</p>
             
-            <h3>Badges</h3>
+            <br><h3>Badges</h3><br>
             <p>Add Nameplate To Artwork +$5 | Con Pickup +$5 | Shipping +$7</p>
             <b-container class="examples">
-                <b-row class="justify-content-lg-center">
-                    <b-col lg="8"><img v-for="img in badges" v-bind:src="img" :key="img"/></b-col>
+                <b-row class="justify-content-center">
+                    <b-col xl="8"><img v-for="img in badges" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
-            <h3>Medium Character References</h3>
+            <br><h3>Medium Character References</h3><br>
             <p>Colored $40 | Linart-Only $30</p>
             
-            <h3>Large Character References</h3>
+            <br><h3>Large Character References</h3><br>
             <p>Colored $60 | Linart-Only $45</p>
             <b-container class="examples">
-                <b-row class="justify-content-lg-center">
-                    <b-col lg="8"><img v-for="img in largeRefs" v-bind:src="img" :key="img"/></b-col>
+                <b-row class="justify-content-center">
+                    <b-col xl="8"><img v-for="img in largeRefs" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
         </b-container>

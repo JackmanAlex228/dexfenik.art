@@ -1,30 +1,41 @@
 <template>
-    <div class="body">
-        <p>I'm free to just about any questions, concerns, or anything of the like. If you just 
-            want someone to chat with, I'm afraid I don't have enough time to do so with anyone 
-            other than my close friends. But I definately can hear from you through the following:</p>
-        
-        <h3>Email</h3>
-        <p>dexfenikfox@gmail.com</p>
-        
-        <h3>Other ways you can contact me</h3>
-        <p>Telegram, Twitter, Instagram, FurAffinity, and DeviantArt DMs. I'm @DexFenik on all of these.</p>
+    <b-container class="contact-body">
+        <b-row class="justify-content-center">
+            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+                <h3>Email</h3>
+                <p>dexfenikfox@gmail.com</p>
+            </b-col>
+        </b-row> 
+        <b-row class="justify-content-center">
+            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+                <h3>Other ways you can contact me</h3>
+                <p>Telegram, Twitter, Instagram, FurAffinity, and DeviantArt DMs. I'm @DexFenik on all of these.</p>
+            </b-col>
+        </b-row> 
 
-        <h3>There are no stupid questions</h3>
-        <p>Please feel free ask me anything on <a href="https://curiouscat.me/DexFenik">CuriousCat</a>.</p>
+        <b-row class="justify-content-center">
+            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+                <h3>There are no stupid questions</h3>
+                <p>Please feel free ask me anything on <a href="https://curiouscat.me/DexFenik" target="_blank">CuriousCat</a>.</p>
+            </b-col>
+        </b-row> 
 
-        <h3>What NOT to do when contacting me</h3>
-        <ul>
-            <li>Send spam.</li>
-            <li>Role play or ask to role play.</li>
-            <li>Send one-worded effortless messages such as "hey" or "hi".</li>
-            <li>Harass, threaten, or generally be creepy.</li>
-            <li>Send explicit unsolicited images.</li>
-            <li>Ask for validation through self-loath or other forms of emotional manipulation.</li>
-            <li>Attempt to identify me and my personal life.</li>
-            <li>Attempt to persue friendships with me directly.</li>
-        </ul>
-    </div>
+        <b-row class="justify-content-center">
+            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+                <h3>What NOT to do when contacting me</h3>
+                <!-- <ul> -->
+                    <p>Send spam.</p>
+                    <p>Role play or ask to role play.</p>
+                    <p>Send one-worded effortless messages such as "hey" or "hi".</p>
+                    <p>Harass, threaten, or generally be creepy.</p>
+                    <p>Send unsolicited explicit messages or images.</p>
+                    <p>Ask for validation through self-loath or other forms of emotional manipulation.</p>
+                    <p>Attempt to identify me and my personal life.</p>
+                    <p>Attempt to persue friendships with me directly.</p>
+                <!-- </ul> -->
+            </b-col>
+        </b-row> 
+    </b-container>
 </template>
 
 <script>
@@ -34,20 +45,21 @@ export default {
 </script>
 
 <style scoped>
-    .body {
-        display: inline-block;
+    .contact-body {
         margin-top: 25px;
         margin-bottom: 25px;
-        text-align: center;
+        width: 100% !important;
     }
-    .body a {
+    .contact-body h3, p {
+        text-align: left !important;
+        width: 100% !important;
+        display: inpne-block;
+    }
+    .contact-body a {
         text-decoration: underline;
         color: #5D5D5D;
     }
-    .body h3, p, ul {
-        text-align: left !important;
-    }
-    .body a:hover {
+    .contact-body a:hover {
         color: #FF6600;
     }
 </style>

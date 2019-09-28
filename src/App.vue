@@ -10,8 +10,12 @@
         <b-col sm md="auto"><b-button v-on:click="component='commissions'">Commissions</b-button></b-col>
         <b-col sm md="auto"><b-button v-on:click="component='contact'">Contact</b-button></b-col>
       </b-row>
+      <b-row class="justify-content-md-center">
+        <component v-bind:is="component"/>
+      </b-row>
+      
     </b-container>
-    <component v-bind:is="component"/>
+    
   </div>
 </template>
 
@@ -57,7 +61,7 @@ export default {
     color: #FF6600;
   }
   #app p, h3, ol, ul {
-    width: 70%;
+    /* width: 70%; */
     display: inline-block;
     text-align: center;
   }

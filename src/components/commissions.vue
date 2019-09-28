@@ -2,8 +2,8 @@
     <div class="commissions-body">
 
         <b-container class="status">
-            <b-row class="justify-content-lg-center">
-                <b-col lg="8">
+            <b-row class="justify-content-center">
+                <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                     <!-- Danger Success Warning Info -->
                     <b-card
                         border-variant="danger"

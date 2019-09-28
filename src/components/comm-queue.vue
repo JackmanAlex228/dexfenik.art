@@ -1,11 +1,13 @@
 <template>
-    <div class="body">
-        <div>
-            <b-table class="table" :items="items" :fields="fields" caption-top borderless>
-                <template v-slot:table-caption>PayPal Address: dexfenikfox@gmail.com</template>
-            </b-table>
-        </div>
-    </div>
+    <b-container class="queue-body">
+        <!-- <b-row class="justify-content-center">
+            <b-col sx="12" sm="12" md="10" lg="8" xl="8"> -->
+                <b-table class="table" :items="items" :fields="fields" caption-top borderless>
+                    <template v-slot:table-caption>PayPal Address: dexfenikfox@gmail.com</template>
+                </b-table>
+            <!-- </b-col>
+        </b-row> -->
+    </b-container>
 </template>
 
 <script>
@@ -27,15 +29,15 @@ export default {
 </script>
 
 <style scoped>
-    .body {
-        width: 70%;
-        display: inline-block;
+    .queue-body {
         margin-top: 25px;
         margin-bottom: 25px;
-        text-align: center;
+        width: 100% !important;
     }
-    .body .table {
+    .queue-body .table {
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         color: #5D5D5D;
+        /* display: inline-block; */
+        width: 100% !important;
     }
 </style>
