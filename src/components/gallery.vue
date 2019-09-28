@@ -24,6 +24,7 @@ export default {
         return {
             // component: 'artwork_gallery'
             images:[
+                'https://cvws.icloud-content.com/B/Ad4qEgz6zHvOdG38oeoJxwq_h4rjASPrZ0JY99EF20TMXtzemafsA8C5/1.jpg?o=Ao9zGHJmfC6wMnhWVBSYSodBLNJoG3ghzqsuh_q8fXhR&v=1&x=3&a=CAogPh5R8jBTpMjK-PsqGmhcLHp-FYuyM5dDi9yOT1QNaqcSHRDnz_S11y0Yh8erttctIgEAUgS_h4rjWgTsA8C5&e=1569656071&k=GuDK3u9gpUUNEVT5MWLFtg&fl=&r=eab516ef-f294-4304-8b03-0a4fe3aa7edb-1&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=58&s=Pc6Z4Wp--uR3igz6UNTAsUoGiHg&cd=i',
                 'https://d.facdn.net/art/dexfenik/1569278259/1569278259.dexfenik_tes_24__small_.png',
                 'https://d.facdn.net/art/dexfenik/1569278134/1569278134.dexfenik_scarf_dex__small_.png',
                 'https://d.facdn.net/art/dexfenik/1569278065/1569278065.dexfenik_bird_and_marten__small_.png',
