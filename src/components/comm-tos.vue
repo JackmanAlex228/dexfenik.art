@@ -2,7 +2,7 @@
 
     <b-container class="tos-body">
         <b-row class="justify-content-center">
-            <b-col sx="12" sm="12" md="10" lg="8" xl="8">
+            <b-col sx="12" sm="12" md="12" lg="8" xl="8">
                 <h3>1. What I won't draw</h3>            
                 <ol type="a">
                     <li>Any fetishes or potential interpretations of fetishes.</li>
@@ -17,7 +17,7 @@
         </b-row>
 
         <b-row class="justify-content-center">
-            <b-col sx="12" sm="12" md="10" lg="8" xl="8">
+            <b-col sx="12" sm="12" md="12" lg="8" xl="8">
                 <h3>2. What I can draw</h3>
                 <ol type="a">
                     <li>Maws, paws, micro, macro, or underwear are okay as long as it's not sexually implicit.</li>
@@ -29,7 +29,7 @@
         </b-row>
 
         <b-row class="justify-content-center">
-            <b-col sx="12" sm="12" md="10" lg="8" xl="8">
+            <b-col sx="12" sm="12" md="12" lg="8" xl="8">
                 <h3>3. My style preferences</h3>
                 <ol type="a">
                     <li>When drawing anthropomorphic animal characters, I prefer their physique to be more animal than human.</li>
@@ -40,7 +40,7 @@
         </b-row>
 
         <b-row class="justify-content-center">
-            <b-col sx="12" sm="12" md="10" lg="8" xl="8">
+            <b-col sx="12" sm="12" md="12" lg="8" xl="8">
                 <h3>4. Commission rules</h3>
                 <ol type="a">
                     <li>A SFW, up-to-date character reference sheet is required. Existing artwork of the character may also work.</li>

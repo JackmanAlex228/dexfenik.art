@@ -1,27 +1,27 @@
 <template>
     <b-container class="contact-body">
         <b-row class="justify-content-center">
-            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+            <b-col xm="12" sm="12" md="12" lg="8" xl="8">
                 <h3>Email</h3>
                 <p>dexfenikfox@gmail.com</p>
             </b-col>
         </b-row> 
         <b-row class="justify-content-center">
-            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+            <b-col xm="12" sm="12" md="12" lg="8" xl="8">
                 <h3>Other ways you can contact me</h3>
                 <p>Telegram, Twitter, Instagram, FurAffinity, and DeviantArt DMs. I'm @DexFenik on all of these.</p>
             </b-col>
         </b-row> 
 
         <b-row class="justify-content-center">
-            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+            <b-col xm="12" sm="12" md="12" lg="8" xl="8">
                 <h3>There are no stupid questions</h3>
                 <p>Please feel free ask me anything on <a href="https://curiouscat.me/DexFenik" target="_blank">CuriousCat</a>.</p>
             </b-col>
         </b-row> 
 
         <b-row class="justify-content-center">
-            <b-col xm="12" sm="12" md="10" lg="8" xl="8">
+            <b-col xm="12" sm="12" md="12" lg="8" xl="8">
                 <h3>What NOT to do when contacting me</h3>
                 <!-- <ul> -->
                     <p>Send spam.</p>

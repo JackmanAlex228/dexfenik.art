@@ -57,40 +57,40 @@ export default {
     data() {
         return {
             flatIllustrations:[
-                'https://d.facdn.net/art/dexfenik/1569277594/1569277594.dexfenik_ringtail__small_.png',
-                'https://d.facdn.net/art/dexfenik/1569276353/1569276353.dexfenik_bexis__small_.jpg',
-                'https://d.facdn.net/art/dexfenik/1569275241/1569275241.dexfenik_dax.png',
-                'https://d.facdn.net/art/dexfenik/1546544832/1546544832.dexfenik_shadowfang.png'
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/flat-ill-1.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/flat-ill-2.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/flat-ill-3.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/flat-ill-4.jpg'
             ],
             shadedIllustrations:[
-                'https://d.facdn.net/art/dexfenik/1569277805/1569277805.dexfenik_rockness_dog__small_.png',
-                'https://d.facdn.net/art/dexfenik/1569277682/1569277682.dexfenik_hexium__small_.png',
-                'https://d.facdn.net/art/dexfenik/1528132136/1528132136.dexfenik_strat.png',
-                'https://d.facdn.net/art/dexfenik/1528131764/1528131764.dexfenik_hugging.png'
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/shaded-ill-1.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/shaded-ill-2.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/shaded-ill-3.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/shaded-ill-4.jpg'
             ],
             flatIcons:[
-                'https://d.facdn.net/art/dexfenik/1544059329/1544059329.dexfenik_fall_dex_icon_2018.png',
-                'https://d.facdn.net/art/dexfenik/1551733367/1551733367.dexfenik_manora.png'
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/flat-icon-1.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/flat-icon-2.jpg'
             ],
             shadedIcons:[
                 '',
                 ''
             ],
             badges:[
-                'https://d.facdn.net/art/dexfenik/1511038393/1511038393.dexfenik_blitz__background_.png',
-                'https://d.facdn.net/art/dexfenik/1514875781/1514875781.dexfenik_kahuna_badge.png',
-                'https://d.facdn.net/art/dexfenik/1544057442/1544057442.dexfenik_frippo.png',
-                'https://d.facdn.net/art/dexfenik/1510107367/1510107367.dexfenik_fall_dex_badge.png'
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/badge-1.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/badge-2.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/badge-3.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/badge-4.jpg'
             ],
             mediumRefs:[
                 '',
                 ''
             ],
             largeRefs:[
-                'https://d.facdn.net/art/dexfenik/1551733256/1551733256.dexfenik_willow_character_ref.png',
-                'https://d.facdn.net/art/dexfenik/1555297277/1555297277.dexfenik_woofy_ref.png',
-                'https://d.facdn.net/art/dexfenik/1555297527/1555297527.dexfenik_shoba_ref.png',
-                'https://d.facdn.net/art/dexfenik/1569276286/1569276286.dexfenik_crankycoon__small_.png'
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/large-ref-1.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/large-ref-2.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/large-ref-3.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/comm-examples/large-ref-4.jpg'
             ]
         }
     }
