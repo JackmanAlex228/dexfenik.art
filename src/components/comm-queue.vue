@@ -15,13 +15,13 @@ export default {
     name: 'comm_queue',
     data() {
       return {
-        fields: ['queue_number', 'username', 'commission_type', 'payment_status'],
+        fields: ['number', 'commission', 'progress'],
         items: [
-          { queue_number: 1, username: '-', commission_type: '-', payment_status: '-' },
-          { queue_number: 2, username: '-', commission_type: '-', payment_status: '-' },
-          { queue_number: 3, username: '-', commission_type: '-', payment_status: '-' },
-          { queue_number: 4, username: '-', commission_type: '-', payment_status: '-' },
-          { queue_number: 5, username: '-', commission_type: '-', payment_status: '-' },
+          { number: 1, commission: '-', progress: '-' },
+          { number: 2, commission: '-', progress: '-' },
+          { number: 3, commission: '-', progress: '-' },
+          { number: 4, commission: '-', progress: '-' },
+          { number: 5, commission: '-', progress: '-' },
         ]
       }
     }
