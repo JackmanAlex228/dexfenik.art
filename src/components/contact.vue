@@ -31,7 +31,7 @@
                     <p>Send unsolicited explicit content.</p>
                     <p>Ask for validation through self-loath or other forms of emotional manipulation.</p>
                     <p>Attempt to figure out my personal life.</p>
-                    <p>Attempt to persue friendships with me directly.</p>
+                    <p>Attempt to pursue friendships with me directly.</p>
                 <!-- </ul> -->
             </b-col>
         </b-row> 
