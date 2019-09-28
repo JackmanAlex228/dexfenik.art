@@ -14,7 +14,7 @@
                     many cons and experiencing countless memories.</p>
                 <p>For my whole life, I've always had an affinity for anthropomorphic animals, from films and 
                     shows such as Lion King and Dragon Ball. After discovering the art in 2013, persuing the 
-                    community in 2014, and getting a fursuit in 2017, I've been an living in this community through art, 
+                    community in 2014, and getting a fursuit in 2017, I've been living in this community through art, 
                     costplays, friendships, and other adventures. To this day, I draw character-focused artwork, open for 
                     commissions on occasion, and travel to cons so I can goof around dressed as an anxious fox. </p>
             </b-col>
