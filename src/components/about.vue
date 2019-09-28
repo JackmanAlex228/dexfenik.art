@@ -38,7 +38,7 @@
                     Eventually I went back to Photoshop and my Intuos 4 once I got back to my computer one summer. 
                     Later in the fall, I used Paint Tool Sai (given by a friend) for the lineart and color 
                     and Photoshop for the effects and touch-ups.</p>
-                <p>In Spring of 2016, for my junior college graduation I was given by my family a Surface Pro 4, which I
+                <p>In Spring of 2016, my family gave me a Surface Pro 4 for my junior college graduation, which I
                     used with Clip Studio Paint until Summer 2019.</p>
                 <p>Today I use an iPad Pro (11" 2018) with Apple Pencil and ProCreate.<p/>
             </b-col>
