@@ -20,7 +20,7 @@
             <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                 <h3>2. What I can draw</h3>
                 <ol type="a">
-                    <li>Maws, paws, micro, or macro are okay as long as it's not sexually implicit.</li>
+                    <li>Maws, paws, micro, macro, or underwear are okay as long as it's not sexually implicit.</li>
                     <li>Mild sexual themes, such as sexy poses, butts, bedroom eyes, etc.</li>
                     <li>Mild blood and injuries, such as nose bleeds, cuts, bruises, etc.</li>
                     <li>Alchohol and mild drug use.</li>
