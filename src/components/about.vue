@@ -25,7 +25,7 @@
                 <h3>How I Learn</h3>
                 <p>Practice every day, or at least as much as I can, starting from a sketch book. I also learn 
                     from my inspirations, watching them progress, viewing their tutorials, viewing the art they love, 
-                    and aspiring to be like them. And most importantly, I enjoyed it.</p>
+                    and aspiring to be like them. And most importantly, I enjoy it.</p>
             </b-col>
         </b-row>
 
