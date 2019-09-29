@@ -5,7 +5,7 @@
             <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                 <h3>Hello</h3>
                 <p>My name is DexFenik (Dex-Fee-Nick), but you can just call me Dex.</p>
-                <p>I am a digital artist by hobby and a software engineer by school and profession.
+                <p>I am a digital artist by hobby and a software engineer by trade.
                     I started doing graphic design in high school in 2010, focusing on Adobe Photoshop and Illustrator. 
                     In my freshman year of college in 2014, I began to draw freehand, mainly animals and nature.</p>
                 <p>After less than a year of practice, moving from sketchpad to digital, 
