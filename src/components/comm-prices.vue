@@ -6,7 +6,7 @@
             <p>$25 | Add Character +$15 | Add Background +$20</p>
             <b-container class="examples">
                 <b-row class="justify-content-center">
-                    <b-col sx="12" sm="12" md="12" lg="8" xl="8"><img v-for="img in flatIllustrations" v-bind:src="img" :key="img"/></b-col>
+                    <b-col sx="12" sm="12" md="12" lg="12" xl="8"><img v-for="img in flatIllustrations" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
@@ -14,7 +14,7 @@
             <p>$30 | Add Character +$20 | Add Background +$25</p>
             <b-container class="examples">
                 <b-row class="justify-content-center">
-                    <b-col sx="12" sm="12" md="12" lg="8" xl="8"><img v-for="img in shadedIllustrations" v-bind:src="img" :key="img"/></b-col>
+                    <b-col sx="12" sm="12" md="12" lg="12" xl="8"><img v-for="img in shadedIllustrations" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
@@ -22,7 +22,7 @@
             <p>$15 | Add Character +$10 | Add Background +$10</p>
             <b-container class="examples">
                 <b-row class="justify-content-center">
-                    <b-col sx="12" sm="12" md="12" lg="8" xl="8"><img v-for="img in flatIcons" v-bind:src="img" :key="img"/></b-col>
+                    <b-col sx="12" sm="12" md="12" lg="12" xl="8"><img v-for="img in flatIcons" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
@@ -33,7 +33,7 @@
             <p>Add Nameplate To Artwork +$5 | Con Pickup +$5 | Shipping +$7</p>
             <b-container class="examples">
                 <b-row class="justify-content-center">
-                    <b-col sx="12" sm="12" md="12" lg="8" xl="8"><img v-for="img in badges" v-bind:src="img" :key="img"/></b-col>
+                    <b-col sx="12" sm="12" md="12" lg="12" xl="8"><img v-for="img in badges" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
             
@@ -44,7 +44,7 @@
             <p>Colored $60 | Linart-Only $45</p>
             <b-container class="examples">
                 <b-row class="justify-content-center">
-                    <b-col sx="12" sm="12" md="12" lg="8" xl="8"><img v-for="img in largeRefs" v-bind:src="img" :key="img"/></b-col>
+                    <b-col sx="12" sm="12" md="12" lg="12" xl="8"><img v-for="img in largeRefs" v-bind:src="img" :key="img"/></b-col>
                 </b-row>
             </b-container>
         </b-container>

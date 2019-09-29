@@ -4,11 +4,11 @@
     <h3 class="title">The Art Of DexFenik</h3>
     <b-container class="main-nav-btns">
       <b-row class="justify-content-md-center">
-        <b-col sm md="auto"><b-button v-on:click="component='gallery'">Portfolio</b-button></b-col>
+        <b-col md="auto"><b-button v-on:click="component='gallery'">Portfolio</b-button></b-col>
         <!-- <b-button v-on:click="component='characters'">Characters</b-button> -->
-        <b-col sm md="auto"><b-button v-on:click="component='about'">About</b-button></b-col>
-        <b-col sm md="auto"><b-button v-on:click="component='commissions'">Commissions</b-button></b-col>
-        <b-col sm md="auto"><b-button v-on:click="component='contact'">Contact</b-button></b-col>
+        <b-col md="auto"><b-button v-on:click="component='about'">About</b-button></b-col>
+        <b-col md="auto"><b-button v-on:click="component='commissions'">Commissions</b-button></b-col>
+        <b-col md="auto"><b-button v-on:click="component='contact'">Contact</b-button></b-col>
       </b-row>
       <b-row class="justify-content-md-center">
         <component v-bind:is="component"/>

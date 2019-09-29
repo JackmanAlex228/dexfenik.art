@@ -2,8 +2,8 @@
     <div class="gallery-body">
 
         <b-container class="images">
-            <b-row>
-                <b-col sm md="auto"><img v-for="img in images" v-bind:src="img" :key="img"/></b-col>
+            <b-row class="justify-content-center">
+                <b-col sx="12" sm="12" md="12" lg="12" xl="8"><img v-for="img in images" v-bind:src="img" :key="img"/></b-col>
             </b-row>
         </b-container>
 
