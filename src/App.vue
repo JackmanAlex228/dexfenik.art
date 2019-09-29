@@ -13,9 +13,7 @@
       <b-row class="justify-content-md-center">
         <component v-bind:is="component"/>
       </b-row>
-      
     </b-container>
-    
   </div>
 </template>
 
@@ -61,7 +59,6 @@ export default {
     color: #FF6600;
   }
   #app p, h3, ol, ul {
-    /* width: 70%; */
     display: inline-block;
     text-align: center;
   }
