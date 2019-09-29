@@ -96,9 +96,9 @@ export default {
     }
     .inspirations-btns .btn:active {
         background: none !important;
-        border: none !important;
         color: #FF6600 !important;
     }
+
     .inspirations-btns .Thanshuhai:hover    { color: rgb(46, 219, 219); }
     .inspirations-btns .Denucard:hover      { color: rgb(243, 187, 46); }
     .inspirations-btns .TaniDaReal:hover    { color: rgb(80, 148, 148); }
