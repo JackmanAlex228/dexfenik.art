@@ -25,7 +25,7 @@
                 <h3>What NOT to do when contacting me</h3>
                 <p>Send spam.</p>
                 <p>Role play or ask to role play.</p>
-                <p>Send one-worded effortless messages such as "hey" or "hi".</p>
+                <p>Send meaningless one-worded messages such as "hey" or "hi".</p>
                 <p>Harass, threaten, or generally be creepy.</p>
                 <p>Send unsolicited explicit content.</p>
                 <p>Ask for validation through self-loathing or other forms of emotional manipulation.</p>
