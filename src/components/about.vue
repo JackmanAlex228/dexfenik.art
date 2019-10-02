@@ -33,11 +33,11 @@
             <b-col sx="12" sm="12" md="10" lg="8" xl="8">
                 <h3>What I Used</h3>
                 <p>In my graphic design days, I used a Wacom Intuos Pro 4, which was given to me for Christmas 
-                    in 2010. My brother and I also shared a copy of the Adobe CS5 Production Premium. </p>
+                    in 2010. I also used Adobe Photoshop and Illustrator CS5. </p>
                 <p>When I started drawing in 2014, I simply bought a sketch book and drew what I felt like drawing every day. 
-                    Eventually I went back to Photoshop and my Intuos 4 once I got back to my computer one summer. 
+                    Eventually I went back to digital once I got back to my computer one summer. 
                     Later in the fall, I used Paint Tool Sai (given by a friend) for the lineart and color 
-                    and Photoshop for the effects and touch-ups.</p>
+                    and Photoshop CS5 for the effects and touch-ups.</p>
                 <p>In Spring of 2016, my family gave me a Surface Pro 4 for my junior college graduation, which I
                     used with Clip Studio Paint until Summer 2019.</p>
                 <p>Today I use an iPad Pro (11" 2018) with Apple Pencil and ProCreate.<p/>
