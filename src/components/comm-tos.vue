@@ -8,7 +8,7 @@
                     <li>Any fetishes or potential interpretations of fetishes.</li>
                     <li>NSFW content, such as gore, intercourse, or uncensored nudity. </li>
                     <li>Anything with malicious intent such as callouts or hate speech.</li>
-                    <li>Ideologically sensative material in a serious context.</li>
+                    <li>Ideologically sensative material.</li>
                     <li>Extreme violence in a serious context.</li>
                     <li>Romantic situations based on real couples I don't know personally.</li>
                     <li>Fanart or art of copyrighted characters.</li>
