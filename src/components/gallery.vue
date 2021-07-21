@@ -24,6 +24,8 @@ export default {
         return {
             // component: 'artwork_gallery'
             images:[
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/portfolio-full/45.jpg',
+                'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/portfolio-full/44.jpg',
                 'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/portfolio-full/43.jpg',
                 'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/portfolio-full/42.jpg',
                 'https://raw.githubusercontent.com/JackmanAlex228/dexfenik.art/master/src/assets/portfolio-full/41.jpg',

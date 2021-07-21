@@ -54,7 +54,7 @@
                     <b-button class="Kenket"        a href="https://twitter.com/tessgarman"         target=_blank>Kenket</b-button>
                     <b-button class="Tirrel"        a href="https://twitter.com/Tirrelous"          target=_blank>Tirrel</b-button>
                     <b-button class="Ritwells"      a href="https://twitter.com/ritwells"           target=_blank>Ritwells</b-button>
-                    <b-button class="Tsebresos"     a href="https://www.instagram.com/tsebresos/"   target=_blank>Tsebresos</b-button>
+                    <b-button class="Musing"        a href="https://www.instagram.com/musingwolfdog/" target=_blank>MusingWolfdog</b-button>
                     <b-button class="Kour"          a href="https://twitter.com/ArtKour"            target=_blank>Kour</b-button>
                     <b-button class="JibKodi"       a href="https://twitter.com/JibKodi"            target=_blank>JibKodi</b-button>
                     <b-button class="Fuel"          a href="https://twitter.com/foxefuel"           target=_blank>Fuel</b-button>
@@ -105,7 +105,7 @@ export default {
     .inspirations-btns .Kenket:hover        { color: rgb(142, 197, 48); }
     .inspirations-btns .Tirrel:hover        { color: rgb(209, 105, 8); }
     .inspirations-btns .Ritwells:hover      { color: orange; }
-    .inspirations-btns .Tsebresos:hover     { color: plum; }
+    .inspirations-btns .Musing:hover     { color: plum; }
     .inspirations-btns .Kour:hover          { color: rgb(255, 0, 140); }
     .inspirations-btns .JibKodi:hover       { color: rgb(13, 150, 43); }
     .inspirations-btns .Fuel:hover          { color: rgb(4, 212, 132); }

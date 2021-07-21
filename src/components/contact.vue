@@ -9,28 +9,16 @@
         <b-row class="justify-content-center">
             <b-col xm="12" sm="12" md="12" lg="8" xl="8">
                 <h3>Other ways you can contact me</h3>
-                <p>Telegram, Twitter, Instagram, FurAffinity, and DeviantArt. I'm DexFenik on all of these.</p>
-            </b-col>
-        </b-row> 
-
-        <b-row class="justify-content-center">
-            <b-col xm="12" sm="12" md="12" lg="8" xl="8">
-                <h3>There are no stupid questions</h3>
-                <p>Please feel free ask me anything on <a href="https://curiouscat.me/DexFenik" target="_blank">CuriousCat</a>.</p>
+                <p>Twitter, Instagram, FurAffinity, and DeviantArt. I'm DexFenik on all of these.</p>
             </b-col>
         </b-row> 
 
         <b-row class="justify-content-center">
             <b-col xm="12" sm="12" md="12" lg="8" xl="8">
                 <h3>What NOT to do when contacting me</h3>
-                <p>Send spam.</p>
-                <p>Role play or ask to role play.</p>
-                <p>Send effortless one-worded messages such as "hey" or "hi".</p>
-                <p>Harass, threaten, or generally be creepy.</p>
-                <p>Send unsolicited explicit content.</p>
-                <p>Ask for validation through self-loathing or other forms of emotional manipulation.</p>
+                <p>Be rude or overall immature.</p>
+                <p>Fish for complements through self-loathing or other forms of emotional manipulation.</p>
                 <p>Attempt to figure out my personal life.</p>
-                <p>Attempt to pursue friendships with me directly.</p>
             </b-col>
         </b-row> 
     </b-container>
