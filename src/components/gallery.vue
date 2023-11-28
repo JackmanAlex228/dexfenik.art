@@ -6,13 +6,6 @@
                 <b-col sm md="auto"><img v-for="img in images" v-bind:src="img" :key="img"/></b-col>
             </b-row>
         </b-container>
-
-        <div class="links">
-            <a target="_blank" href="https://twitter.com/DexFenik"><img src="../assets/Old Icons/tw.jpg"></a>
-            <a target="_blank" href="https://www.instagram.com/dexfenik/"><img src="../assets/Old Icons/in.jpg"></a>
-            <a target="_blank" href="https://www.deviantart.com/dexfenik"><img src="../assets/Old Icons/da.jpg"></a>
-            <a target="_blank" href="https://www.furaffinity.net/user/dexfenik/"><img src="../assets/Old Icons/fa.png"></a>
-        </div>
     </div>
 </template>
 
